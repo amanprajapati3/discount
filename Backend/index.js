@@ -1,7 +1,7 @@
 // Express server for handling webhook
-const express = require('express');
+import express from 'express';
 const app = express();
-const axios = require('axios');
+import axios from "axios"
 
 app.use(express.json());
 
